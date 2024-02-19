@@ -14,13 +14,13 @@ def verificar_texto():
     elif texto_ingresado.lower() == "gamu":
         rutaAutomata += "1.png"
         ventana_principal.after(50, mostrar_ventana_carga)
-    elif texto_ingresado == "gam":
+    elif texto_ingresado.lower() == "gam":
         rutaAutomata += "2.png"
         ventana_principal.after(50, mostrar_ventana_carga)
-    elif texto_ingresado == "ga":
+    elif texto_ingresado.lower() == "ga":
         rutaAutomata += "3.png"
         ventana_principal.after(50, mostrar_ventana_carga)
-    elif texto_ingresado == "g":
+    elif texto_ingresado.lower() == "g":
         rutaAutomata += "4.png"
         ventana_principal.after(50, mostrar_ventana_carga)
     else:
