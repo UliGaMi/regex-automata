@@ -23,6 +23,42 @@ def verificar_texto():
     elif texto_ingresado.lower() == "g":
         rutaAutomata += "4.png"
         ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gu":
+        rutaAutomata += "gu.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gum":
+        rutaAutomata += "gum.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gua":
+        rutaAutomata += "gua.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "guma":
+        rutaAutomata += "guma.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "guam":
+        rutaAutomata += "guam.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gm":
+        rutaAutomata += "gm.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gma":
+        rutaAutomata += "gma.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gmu":
+        rutaAutomata += "gmu.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gmua":
+        rutaAutomata += "gmua.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gmau":
+        rutaAutomata += "gmau.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gaum":
+        rutaAutomata += "gaum.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
+    elif texto_ingresado.lower() == "gau":
+        rutaAutomata += "gau.png"
+        ventana_principal.after(50, mostrar_ventana_carga)
     else:
         messagebox.showinfo("No Coincide", "La expresión regular introducida no coincide con la expresión regular original.")
 
